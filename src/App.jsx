@@ -11,15 +11,17 @@ import Resume from "./Pages/components/Resume";
 function App() {
   return (
     <>
-      <div className="font-mono bg-linear-to-r from-yellow-50 to-BLUE-200">
+      <div className="font-mono bg-linear-to-r from-yellow-100 to-BLUE-200">
         <Headder />
-        <Routes>
-          <Route path="/" element={<Layout />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Skills" element={<Service />} />
-          <Route path="/Portfolio" element={<Portfolio />} />
-          <Route path="/Resume" element={<Resume />} />
-        </Routes>
+        <div className="min-h-200">
+          <Routes>
+            <Route path="/" element={<Layout />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Skills" element={<Service />} />
+            <Route path="/Portfolio" element={<Portfolio />} />
+            <Route path="/Resume" element={<Resume />} />
+          </Routes>
+        </div>
         <Footer />
       </div>
     </>
