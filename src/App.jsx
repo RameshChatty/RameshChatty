@@ -13,7 +13,7 @@ function App() {
     <>
       <div className="font-mono bg-linear-to-r from-yellow-100 to-BLUE-200">
         <Headder />
-        <div className="min-h-200">
+        <div className="min-h-150">
           <Routes>
             <Route path="/" element={<Layout />} />
             <Route path="/About" element={<About />} />

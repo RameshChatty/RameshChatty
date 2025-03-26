@@ -13,11 +13,14 @@ export const Content = () => {
         <div className="flex flex-wrap top-2 pt-20">
           <div className="w-1/3 ml-auto h-12">
             <p className="text-amber-600  text-2xl">Hello, I'm</p>
-            <p className="text-blue-700  text-6xl">Ramesh Chatty</p>
-            <p className="text-blue-600 text-lg">Java Fullstack Developer</p>
+            <p className="text-blue-700 pt-8 text-6xl">Ramesh Chatty</p>
+            <p className="text-blue-600 pt-3 text-lg">
+              Java Fullstack Developer
+            </p>
             <p className="pt-5 text-lg">
               I'm a Lead software engineer based in Hyderabad, India. I'm very
-              passionate and dedicated to my work.
+              passionate and dedicated to my work.Currently, I am employed by
+              Opentext India as a Lead Software Engineer
             </p>
 
             <div className="grid grid-rows-2 grid-cols-2 grid-flow-col gap-4 pt-5">
