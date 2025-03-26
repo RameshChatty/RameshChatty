@@ -7,7 +7,7 @@ const Resume = () => {
     <div>
       <span></span>
       <div>
-        <object width="100%" height="400" data={resume} type="application/pdf">
+        <object width="100%" height="550" data={resume} type="application/pdf">
           {" "}
         </object>
       </div>
