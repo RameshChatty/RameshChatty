@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import HeroImage from "../assets/images/photo.jpg";
-import OpenText from "../assets/images/openText.png";
+import OpenText from "../assets/images/opentext.png";
 import techM from "../assets/images/tech-m.png";
 import infosys from "../assets/images/infosys.png";
 import cgg from "../assets/images/cgg.png";
