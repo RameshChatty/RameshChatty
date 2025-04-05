@@ -151,74 +151,77 @@ const Service = () => {
     ],
   };
   return (
-    <div className="pt-10">
-      <h1 className="font-bold text-3xl ">Skills</h1>
+    <>
+      <div className="flex flex-wrap top-2 pt-10">
+        <h1 className="pl-30 text-3xl ">Skills Me</h1>
+      </div>
+      <div className="pt-10">
+        <div className="text-center flex flex-wrap justify-center">
+          {technologies.backend.map((tech) => {
+            return (
+              <span className="p-2">
+                <img src={tech.url} title={tech.name} width={50} height={30} />
+              </span>
+            );
+          })}
+        </div>
+        <div className="text-center flex flex-wrap justify-center">
+          {technologies.db.map((tech) => {
+            return (
+              <span className="p-2">
+                <img src={tech.url} title={tech.name} width={50} height={30} />
+              </span>
+            );
+          })}
+        </div>
 
-      <div className="text-center flex flex-wrap justify-center">
-        {technologies.backend.map((tech) => {
-          return (
-            <span className="p-2">
-              <img src={tech.url} title={tech.name} width={50} height={30} />
-            </span>
-          );
-        })}
+        <div className="text-center flex flex-wrap justify-center">
+          {technologies.OS.map((tech) => {
+            return (
+              <span className="p-2">
+                <img src={tech.url} title={tech.name} width={50} height={30} />
+              </span>
+            );
+          })}
+        </div>
+        <div className="text-center flex flex-wrap justify-center">
+          {technologies.UI.map((tech) => {
+            return (
+              <span className="p-2">
+                <img src={tech.url} title={tech.name} width={50} height={30} />
+              </span>
+            );
+          })}
+        </div>
+        <div className="text-center flex flex-wrap justify-center">
+          {technologies.Web.map((tech) => {
+            return (
+              <span className="p-2">
+                <img src={tech.url} title={tech.name} width={50} height={30} />
+              </span>
+            );
+          })}
+        </div>
+        <div className="text-center flex flex-wrap justify-center">
+          {technologies.tools.map((tech) => {
+            return (
+              <span className="p-2">
+                <img src={tech.url} title={tech.name} width={50} height={30} />
+              </span>
+            );
+          })}
+        </div>
+        <div className="text-center flex flex-wrap justify-center">
+          {technologies.version.map((tech) => {
+            return (
+              <span className="p-2">
+                <img src={tech.url} title={tech.name} width={50} height={30} />
+              </span>
+            );
+          })}
+        </div>
       </div>
-      <div className="text-center flex flex-wrap justify-center">
-        {technologies.db.map((tech) => {
-          return (
-            <span className="p-2">
-              <img src={tech.url} title={tech.name} width={50} height={30} />
-            </span>
-          );
-        })}
-      </div>
-
-      <div className="text-center flex flex-wrap justify-center">
-        {technologies.OS.map((tech) => {
-          return (
-            <span className="p-2">
-              <img src={tech.url} title={tech.name} width={50} height={30} />
-            </span>
-          );
-        })}
-      </div>
-      <div className="text-center flex flex-wrap justify-center">
-        {technologies.UI.map((tech) => {
-          return (
-            <span className="p-2">
-              <img src={tech.url} title={tech.name} width={50} height={30} />
-            </span>
-          );
-        })}
-      </div>
-      <div className="text-center flex flex-wrap justify-center">
-        {technologies.Web.map((tech) => {
-          return (
-            <span className="p-2">
-              <img src={tech.url} title={tech.name} width={50} height={30} />
-            </span>
-          );
-        })}
-      </div>
-      <div className="text-center flex flex-wrap justify-center">
-        {technologies.tools.map((tech) => {
-          return (
-            <span className="p-2">
-              <img src={tech.url} title={tech.name} width={50} height={30} />
-            </span>
-          );
-        })}
-      </div>
-      <div className="text-center flex flex-wrap justify-center">
-        {technologies.version.map((tech) => {
-          return (
-            <span className="p-2">
-              <img src={tech.url} title={tech.name} width={50} height={30} />
-            </span>
-          );
-        })}
-      </div>
-    </div>
+    </>
   );
 };
 

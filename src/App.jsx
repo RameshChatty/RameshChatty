@@ -11,7 +11,7 @@ import Resume from "./Pages/components/Resume";
 function App() {
   return (
     <>
-      <div className="font-mono bg-linear-to-r from-yellow-100 to-BLUE-200">
+      <div className="font-mono bg-linear-to-r from-blue-200 to-BLUE-200">
         <Headder />
         <div className="min-h-150">
           <Routes>

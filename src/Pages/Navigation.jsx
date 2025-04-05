@@ -8,7 +8,7 @@ import {
   MenuItems,
 } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
-import heroLogo from "../assets/images/hero-image.png";
+import heroLogo from "../assets/images/photo.jpg";
 import { Link } from "react-router-dom";
 
 const navigation = [
@@ -46,13 +46,6 @@ export default function Navigation() {
             </DisclosureButton>
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-            <div className="flex shrink-0 items-center">
-              <img
-                alt="Your Company"
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
-                className="h-8 w-auto"
-              />
-            </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
                 {navigation.map((item) => (
@@ -89,11 +82,12 @@ export default function Navigation() {
                 <MenuButton className="relative flex rounded-full bg-gray-800 text-sm focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden">
                   <span className="absolute -inset-1.5" />
                   <span className="sr-only">Open user menu</span>
+
                   <img
-                    alt=""
+                    class="w-10 h-10 rounded-full bg-amber-50"
                     src={heroLogo}
-                    className="size-8 rounded-full bg-amber-50"
-                  />
+                    alt="Rounded avatar"
+                  ></img>
                 </MenuButton>
               </div>
             </Menu>
