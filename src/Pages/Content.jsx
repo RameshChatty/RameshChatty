@@ -24,7 +24,7 @@ export const Content = () => {
               <p className="text-blue-600 pt-3 text-lg text-center hover:text-red-500">
                 Java Fullstack Developer
               </p>
-              <p className="pt-5">
+              <p className="pt-5 justify-evenly">
                 With over a decade of experience in Java development, I am a
                 passionate software lead developer dedicated to creating
                 high-performance, scalable, and secure applications. Throughout
@@ -40,7 +40,7 @@ export const Content = () => {
               <img src={HeroImage} className="z-400 rounded-2xl max-h-80" />
             </div>
           </div>
-          <div className="container p-20 ">
+          <div className="container p-4.5 ">
             <div class="grid grid-cols-4 flex-1/4 flex-wrap  ">
               <div>
                 <img src={OpenText} className="h-25  w-75" />

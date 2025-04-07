@@ -14,7 +14,7 @@ const ProjectDetails = (props) => {
       </div>
       <div className="p-4">
         <div className="pt-2">
-          <p>
+          <p className="justify-evenly">
             <b>Abstratc: </b>
             {data.abstract}
           </p>
