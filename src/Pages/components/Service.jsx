@@ -153,7 +153,7 @@ const Service = () => {
   return (
     <>
       <div className="flex flex-wrap top-2 pt-10">
-        <h1 className="pl-30 text-3xl ">Skills Me</h1>
+        <h1 className="pl-30 text-3xl ">Skills</h1>
       </div>
       <div className="pt-10">
         <div className="text-center flex flex-wrap justify-center">
