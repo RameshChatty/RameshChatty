@@ -12,7 +12,7 @@ import Contacts from "./Pages/components/Contacts";
 function App() {
   return (
     <>
-      <div className="font-mono bg-linear-to-r from-red-200 to-BLUE-200">
+      <div className="font-mono bg-linear-to-r from-blue-200 to-BLUE-200">
         <Headder />
         <div className="min-h-150">
           <Routes>
